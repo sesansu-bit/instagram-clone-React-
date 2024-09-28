@@ -1,0 +1,160 @@
+.postcontainer{
+   height :750px;
+   width :100%;
+}
+.content{
+   height :100%;
+   width : 50%;
+   margin-left :30% ;  
+}
+ .postupperpart{
+   position: absolute;
+   display:flex;
+   width :81%;
+   justify-content:space-between;
+ }
+ .postupperpartcover{
+   height :43px;
+   width :87%;
+   display:flex;
+   margin-top : 6%;
+   margin-left :13%;
+   position: relative;
+   margin-bottom :2% ;
+ }
+
+.postuppercircle{
+   height :40px;
+   width :40px;
+   border-radius:50%;
+   border:2.5px solid rgb(156,11,74);
+}
+
+.postinnercircle{
+  height :90%;
+  width :90%;
+   border-radius: 50%;
+   margin-left :5% ;
+   margin-top :5% ;
+ 
+}
+.postinnercircle img{
+   height :100%;
+   width :100%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+pre{
+    margin-top :2.5% ;
+    margin-left :2% ;
+    font-weight: 550;
+    color: rgb(68, 67, 67);
+    font-size: larger;
+ }
+ a{
+    color: gray;
+    font-weight: 500;
+ }
+
+ .iconsize {
+    transform: scale(1.5);
+ }
+.iconsize:hover {
+    opacity:0.5; 
+ }
+ 
+.postphoto{
+height :540px;
+width :70.5%;
+margin-left :13%;
+border-radius: 1%;
+margin-top : 1%;
+position: relative;
+ }
+
+.postlike{
+ position:absolute;
+ z-index:1;
+ margin-top : 38%;
+ margin-left : 29%;
+ }
+.postlikeicon{
+   height :200px;
+   width :200px;
+   color:rgb(255, 0, 98);
+}
+.postphoto img{
+height :100%;
+width :100%;
+border-radius: 1%;
+object-fit: cover;
+ }
+
+.iconbox{
+   display:flex;
+   width :70%;
+   justify-content:space-between;
+   margin-left :13%;
+   margin-top : 3.5%;
+   position: relative;
+}
+.iconsize {
+   transform: scale(1.5);
+}
+.love{
+margin-left :1% ;
+}
+.comment{
+   margin-left :-67% ;
+}
+.send{
+   margin-left :-67% ;
+}
+
+.licomment{
+   height : 80px;
+   width :70%;
+   margin-left : 13%;
+   margin-top : 0%;
+}
+.licomment p{
+font-weight: 520;
+padding-top : 1%;
+}
+.licomment input{
+   margin-left : 0%;
+   margin-top :-1%  ;
+   border-radius: 0%;
+   background-color: white;
+   width : 100%;
+   padding-left : 0%;
+   border-bottom : 1px solid black;
+   padding-bottom : 4%;
+   
+}
+.threedot{
+   height :30px;
+   width :30px;
+   margin-top : 1%;
+}
+.threedoticon{
+   height :30px;
+   width :30px;
+   cursor: pointer;
+}
+.postupname{
+   margin-left : -59%;
+   padding-top : 2.8%;
+}
+.remove{
+   height :33px;
+   width :80px;
+   margin-top : 0.5%;
+   border-radius:4px;
+   color: rgb(70, 70, 70);
+   cursor: pointer;
+ margin-left : 81%;
+ padding-left : 1%;
+border:1px solid black;
+}

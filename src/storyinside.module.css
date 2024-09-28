@@ -1,0 +1,21 @@
+.circleup{
+    height :65px;
+    width :65px;
+    border:2.5px solid rgb(156, 11, 74);
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right :2%;
+ }
+ .circlein{
+    height :90%;
+    width :90%;
+    margin-top :5%;
+    margin-left :5%;
+    border-radius: 50%;
+ }
+ .circlein img{
+    height : 100%;
+    width :100%;
+    border-radius: 50%;
+ }
+ 

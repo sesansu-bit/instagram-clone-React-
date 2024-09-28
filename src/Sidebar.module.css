@@ -1,0 +1,201 @@
+ .socialmedia{
+        display:flex;
+        
+    }
+    
+    .sidebar{
+        height :700px;
+       width : 20%;
+       border-right :0.8px solid rgb(174, 174, 174);
+       position: fixed;
+    }
+    .mainlogo img{
+    height :100%;
+    width :100%;
+     object-fit: cover;
+     transform: scale(0.9);
+    }
+    .mainlogo{
+        width : 85%;
+        height :66px;
+        margin-top :5%;
+        margin-left :4% ;
+    }
+    .sidecontainer{
+        height :700px;
+        width : 20%;
+        position: fixed;
+    }
+    .homecontainer{
+        margin-top :42%;
+        margin-left :14% ;
+        padding-top : 2%;
+        padding-left : 5%;
+        padding-bottom :4%;
+        border-radius:5px;
+        width :79%;
+  display:flex;
+    }
+    .icon1{
+       height :30px;
+       width :30px; 
+       
+    }
+    .icon2{
+        height :25px;
+        width :25px; 
+   
+     }
+     .icon3{
+        height :25px;
+        width :25px; 
+    
+     }
+     .icon4{
+        height :25px;
+        width :25px; 
+   
+     }
+     .icon5{
+        height :25px;
+        width :25px;
+ 
+     }
+     .icon6{
+        height :25px;
+        width :25px;  
+       
+     }
+    .homecontainer:hover{
+        background-color: #e1dede; 
+    }
+    .Text1{
+        margin-left : 10%;
+        font-weight: 600;
+        font-size: larger;
+        cursor:pointer;
+        margin-top : 4.1%;
+    }
+    .Text2{
+        margin-left : 11.2%;
+        font-weight: 600;
+        font-size: larger;
+        cursor:pointer;
+        margin-top : 0.5%;
+    }
+    .Text3{
+        margin-left : 11.2%;
+        font-weight: 600;
+        font-size: larger;
+        cursor:pointer;
+        margin-top : 0.5%;
+    }
+    .Text4{
+        margin-left : 11.2%;
+        font-weight: 600;
+        font-size: larger;
+        cursor:pointer;
+        margin-top : 0.5%;
+    }
+    .Text5{
+        margin-left : 11.2%;
+        font-weight: 600;
+        font-size: larger;
+        cursor:pointer;
+        margin-top : 0.5%;
+    }
+    .Text6{
+        margin-left : 11.2%;
+        font-weight: 600;
+        font-size: larger;
+        cursor:pointer;
+        margin-top : 0.5%;
+    }
+    .searchcontainer{
+        margin-top :8%;
+        margin-left :14% ;
+        padding-top : 3.3%;
+        padding-left : 5%;
+        padding-bottom : 4%;
+        border-radius:5px;
+        width :79%;
+        display: flex;
+    }
+    .searchcontainer i{
+        transform:scale(1.5);
+    }
+    .searchcontainer:hover{
+        background-color: #e1dede; 
+    }
+    .explorecontainer{
+        margin-left :19% ;
+        margin-top :14%;
+        margin-top :8%;
+        margin-left :14% ;
+        padding-top : 3.3%;
+        padding-left : 5%;
+        padding-bottom : 4%;
+        border-radius:5px;
+        width :79%;
+        display: flex;
+    }
+    .explorecontainer i{
+        transform:scale(1.5);
+    }
+    .explorecontainer:hover{
+        background-color: #e1dede;
+    }
+    .messagescontainer{
+        margin-top :8%;
+        margin-left :14% ;
+        padding-top : 3.3%;
+        padding-left : 5%;
+        padding-bottom : 4%;
+        border-radius:5px;
+        width :79%;
+        display:flex;
+    }
+    .messagescontainer i{
+        transform:scale(1.5);
+    }
+    .messagescontainer:hover{
+        background-color: #e1dede;
+    }
+    .notificationscontainer{
+        margin-top :8%;
+        margin-left :14% ;
+        padding-top : 3.3%;
+        padding-left : 5%;
+        padding-bottom : 4%;
+        border-radius:5px;
+        width :79%;
+        display:flex;
+    }
+    .notificationscontainer i{
+        transform:scale(1.5);
+    }
+    .notificationscontainer:hover{
+        background-color: #e1dede;
+    }
+    .createcontainer{
+        margin-top :8%;
+        margin-left :14% ;
+        padding-top : 3.3%;
+        padding-left : 5%;
+        padding-bottom : 4%;
+        border-radius:5px;
+        width :79%;
+        display:flex;
+    }
+    .createcontainer i{
+        transform:scale(1.5);
+    }
+    .createcontainer:hover{
+        background-color: #e1dede;
+    }
+    .link{
+        color:black;
+        text-decoration: none;
+        font-weight: 600;
+    }
+  

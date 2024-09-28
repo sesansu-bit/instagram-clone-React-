@@ -1,0 +1,47 @@
+.content{
+    width : 1290px;
+    height :616px;
+    background-color: hsla(0, 0%, 0%, 0.5); 
+    position: fixed;
+    z-index: 1;
+ }
+ .upload1{
+    margin-top : 6%;
+    margin-left : 38%;
+    margin-bottom : 7%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+ }
+.content3{
+    height :350px;
+    width : 380px;
+    background-color: rgb(255, 255, 255);
+    margin-left :35% ;
+    margin-top : 10%;  
+    position:absolute;
+    z-index:2;
+    border-radius:8px;
+   
+  }
+.submission{
+    color:rgb(255, 255, 255);
+    background-color: blue;
+    width :317px;
+ }
+
+ form input{
+     width :300px;
+    margin-left : 9%; 
+    margin-top : 1%;
+ }
+.cross1{
+float :right;
+margin-right : 4%;
+margin-top : 2%;
+}
+.cross1icon{
+   height :27px;
+   width :27px;
+   color:white;
+
+}

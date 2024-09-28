@@ -1,0 +1,108 @@
+.notification{
+    height :605px;
+    width : 400px;
+    margin-left :20%;
+    background-color:#fffafa;
+    border : 1px solid rgb(230, 230, 230);
+    position : fixed;
+    z-index:1;
+    transition: all 0.5s linear ;
+    overflow: auto; 
+
+ }
+ 
+ .notification p{
+    font-size:30px ;
+    font-weight:700 ;
+    margin-left :7%;
+    margin-top :5%;
+ }
+ .week p{
+    font-size:17px ;
+    font-weight:700 ;
+    margin-top :3%;
+ }
+ 
+ .detail1{
+   height :51px;
+   width :356px;
+   margin-top :4%;
+   margin-left :5%;
+   display: flex;
+}
+.person1 img{
+   height :38px;
+   width :39px;
+   border-radius: 50%;
+   margin-top :1%;
+object-fit: cover;
+}
+.name1{
+   margin-left :3.5%;
+}
+.name1 a{
+   font-size: 15px; 
+   color: rgb(72, 72, 72);
+}
+.name1 span{
+   font-weight: 550;
+}
+.name1 p{
+   font-size:15px ;
+   margin-top : 0%;
+   margin-left : 0%;
+   font-weight: 300;
+   color: #767575;
+}
+.follow{
+   margin-left :6%;
+   margin-top :2%;
+   height :27px;
+   width :67px;
+   border-radius:9px;
+   background-color: #0095f6;
+   color:#fefefe;
+   padding-left :6% ;
+   padding-top :2% ;
+}
+.following{
+   margin-left :4%;
+   margin-top :2%;
+   height :27px;
+   width :82px;
+   border-radius:9px;
+   background-color: #e9e7e7;
+   color:#000000;
+   padding-left :5% ;
+   padding-top :2% ;
+   font-weight: 600;
+}
+.space{
+   border: 0.7px solid rgb(212, 210, 210);  
+      margin-top :6%;
+}
+.early p{
+   font-size: larger;
+}
+.follow{
+   width :65px;
+   height :25px;
+   margin-left : 9%;
+   background-color: #0095f6;
+   border-radius: 8px;
+   color:rgb(255, 255, 255);
+   padding-left :5%;
+   padding-top : 2%;
+   cursor: pointer;
+   }
+   .following{
+      width :85px;
+   height :27px;
+   margin-left : 9%;
+   color:black;
+   border-radius: 8px;
+   background-color: #dfdfdf;
+   padding-left :5%;
+   padding-top : 2%;
+   cursor: pointer;
+   }
