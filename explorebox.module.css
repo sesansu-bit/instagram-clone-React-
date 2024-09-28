@@ -1,0 +1,11 @@
+.eachimg{
+    height :330px;
+    width :270px;
+    margin-left : 5%;
+    margin-top : 3%;
+}
+.eachimg img{
+    height : 100%;
+    width :100%;
+    object-fit: cover;
+}
